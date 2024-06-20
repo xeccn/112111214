@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人專案</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: bisque;
+            color: blanchedalmond;
+        }
+
+        .container{
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: blueviolet;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            position: relative;
+        }
+
+        h1{
+            text-align: center;
+            color: beige;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .section{
+            margin-bottom: 30px;
+        }
+
+        .section h2{
+            color: aqua;
+            border-bottom: 2px solid #558ed8;
+            padding-bottom: 10px;
+            font-size: 1.8em;
+        }
+
+        .section p{
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .photo{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .photo img {
+            max-width: 150px;
+            border-radius: 50%;
+            border: 4px solid rgb(114, 245, 245);
+        }
+
+        .social-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .social-link a{
+            margin: 0 15px;
+            text-decoration: none;
+            color: rgb(255, 142, 208);  
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+
+        .social-link a:hover{
+            color: #558ed8;
+        }
+
+         .cute-images{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            left: 10px;
+            display: flex;
+            justify-content: space-between;
+            pointer-events: none;
+        }
+
+        .cute-images img{
+            width: 50px;
+            height: 50px;
+        }
+
+        .nav{
+            margin: 0 10px;
+            text-decoration:  none;
+            color: aquamarine;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        .nav a:hover{
+            color: #e4ff82;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="nav">
+            <a href="#education">基本訊息</a>
+            <a href="#basic-info">教育背景</a>
+            <a href="#interest">興趣</a>
+            <a href="#expertise">專長</a>
+            <a href="#work">作品集</a>
+         </div>
+         <div class="photo">
+            <img src="img/大頭照.jfif" alt="謝其恩">
+         </div>
+         <h1>自我介紹</h1>
+         <div class="section" id="education">
+            <h2>基本訊息</h2>
+            <p><span>名子:</span>謝其恩</p>
+            <p><span>年齡:</span>18</p>
+            <p><span>職業:</span>大學生</p>
+            <p><span>地址:</span>三峽</p>
+        </div>
+         <div class="section" id="basic-info">
+            <h2>教育背景</h2>
+            <p><span>學校:</span>亞東科技大學</p>
+            <p><span>專業:</span>資訊管理</p>
+            <p><span>學位:</span>大一</p>
+            <img src="img/亞東.png" alt="大學">
+        </div>
+        <div class="section" id="interest">
+            <h2>興趣</h2>
+            <p><span>運動:</span>打籃球</p>
+            <p><span>遊戲:</span>打傳說</p>
+            <p><span>嗜好:</span>聽音樂</p>
+            <img src="img/籃球.jfif" alt="籃球">
+            <img src="img/傳說.jfif" alt="傳說">
+            <img src="img/音樂.jfif" alt="音樂">
+        </div>
+        <div class="section" id="expertise">
+            <h2>工作經歷</h2>
+            <p><span>做過:</span>燒烤店</p>
+            <p><span>做過:</span>早餐店</p>
+            <p><span>做過:</span>日式料理</p>
+            <img src="img/禾岡.jfif" alt="燒烤店">
+            <img src="img/images.jfif" alt="早餐店">
+            <img src="img/松岳.jfif" alt="日式料理">
+        </div>
+        <div class="section" id="#work">
+            <h2>作品集</h2>
+            <p>網頁設計</p>
+            <ul>
+                <li><a href="file:///C:/Users/Admin/Downloads/112111214/112111214/index.html">KOMA-NATSU Web1</a></li>
+                <li><a href="file:///C:/Users/Admin/Downloads/112111214-0411/112111214-0411/112111214-0411/20240411/index.html">KOMA-NATSU Web2</a></li>
+                <li><a href="file:///C:/Users/Admin/Downloads/20240523/20240523/layout.html">網頁排版</a></li>
+                
+            </ul>
+        </div>
+            
+    </div>
+    
+</body>
+</html>
